@@ -58,6 +58,8 @@ img {
 
 .user-one:hover {
     transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px #67affc;
 }
 
 .user-two {
@@ -73,6 +75,8 @@ img {
 
 .user-two:hover {
     transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px #67affc;
 }
 
 .add-user {
@@ -88,6 +92,8 @@ img {
 
 .add-user:hover {
     transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px #67affc;
 }
 
 .add-user > button {
@@ -105,7 +111,6 @@ img {
     border: 2px solid;
     font-family: 'Comfortaa', sans-serif;
     font-size: large;
-    cursor: pointer;
     
 }
 
@@ -127,6 +132,7 @@ img {
     transition: all .2s ease-in-out;
 }
 
-.manage-user-btn >button:hover {
-    transition: scale(1.1);
+.manage-user-btn:hover > button {
+    transform:scale(1.1);
+    box-shadow: 0 0 10px #67affc;
 }
